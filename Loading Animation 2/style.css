@@ -1,0 +1,46 @@
+body html{
+    margin: 0;
+    padding: 0;
+
+
+}
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ gap: 20px;
+ 
+}
+
+.Square1{
+    background-color: red;
+    height: 1.5em;
+    width: 1.5em;
+    animation: rotate 1.5s  infinite;
+   
+    
+}
+.Square2{
+    background-color: orange;
+    height: 1.5em;
+    width: 1.5em;
+    animation: rotate 1.5s infinite;
+}
+
+.Square3{
+    background-color: rgb(75, 4, 255);
+    height: 1.5em;
+    width: 1.5em;
+    animation: rotate 1.5s infinite ;
+}
+
+@keyframes rotate {
+    
+    from{
+        transform: rotate(-45deg);
+    }
+    to{
+        transform: rotate(45deg);
+    }
+}
